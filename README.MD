@@ -1,6 +1,6 @@
 # portable-nodejs
 
-Create a portable Node.js runtime for Win32; Bundled with NPM for both CMD and
+Create a portable Node.js runtime for Win32; bundled with NPM for both CMD and
 Bash.
 
 ## Usage
