@@ -63,6 +63,6 @@ rm -rf nodejs/bin nodejs/include nodejs/lib nodejs/share
 
 echo "" && echo "Creating standalone archive: ${OUTPUT}.tar.gz"
 cd - > /dev/null
-tar -C ${TEMP} -c nodejs | gzip -9 > ${OUTPUT}.tar.gz
+tar -C ${TEMP} -c nodejs | gzip > ${OUTPUT}.tar.gz
 gzip -lv ${OUTPUT}.tar.gz
 gzip -tv ${OUTPUT}.tar.gz
